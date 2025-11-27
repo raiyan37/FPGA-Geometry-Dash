@@ -196,3 +196,4 @@ module vga_adapter( resetn, clock, color, x, y, write,
 
 endmodule
     
+
