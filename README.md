@@ -6,7 +6,7 @@ This repository contains an FPGA project that renders graphics to a 640×480 VGA
 
 The project demonstrates a full video pipeline on Intel/Altera FPGAs. It generates VGA sync signals, manages pixel memory initialized from a `.mif` file, reads PS/2 keyboard scancodes in hardware, and drives a standard VGA monitor using a PLL-derived pixel clock. The Quartus project files are included for synthesis and fitting.
 
-![VGA Demo Preview](./img/demo.gif)
+![VGA Demo Preview](./demo.gif)
 
 ## Techniques Used
 
