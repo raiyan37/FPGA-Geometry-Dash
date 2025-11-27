@@ -59,19 +59,27 @@ Includes `.qsf`, `.qpf`, fitter results, timing reports, and database files that
 
 ```text
 /
-├── vga_demo.v
-├── vga_controller.v
-├── vga_adapter.v
-├── vga_address_translator.v
-├── vga_pll.v
-├── PS2_Controller.v
-├── PS2_Demo.v
-├── Altera_UP_PS2_Data_In.v
-├── rainbow_640_9.mif
-├── vga_demo.qsf
-├── vga_demo.qpf
-├── output_files/
-│   └── (compiled binaries, reports, timing summaries)
-├── db/
-│   └── (Quartus intermediate build database)
-└── img/  (optional future directory)
+├── PS2/
+│   ├── Altera_UP_PS2_Command_Out.v
+│   ├── Altera_UP_PS2_Data_In.v
+│   ├── PS2_Controller.v
+│   ├── PS2_Demo.v
+│   └── PS2_Demo.v.bak
+│
+├── VGA/
+│   ├── vga_adapter.v
+│   ├── vga_address_translator.v
+│   ├── vga_controller.v
+│   ├── vga_demo.qpf
+│   ├── vga_demo.qsf
+│   ├── vga_demo.qsf.bak
+│   ├── vga_demo.v
+│   ├── vga_demo.v.bak
+│   └── vga_p ll.v
+│
+├── constraint/
+│   └── c5_pin_model_dump.txt
+│
+├── demo.gif
+└── README.md
+
